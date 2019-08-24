@@ -1,6 +1,12 @@
 new Vue({
     el: '#parent',
     data: {
-        msg: 'Hello World!'
+        msg: ""
+    },
+    methods: {
+        display: function(){
+            this.msg = this.msg + "Hello World! "
+        }
     }
 })
+

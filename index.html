@@ -10,7 +10,9 @@
 </head>
 <body>
     <div id="parent">
-        {{ msg }}
+        <p>{{ msg }}</p>
+        <button v-on:click="display">Click to tell the world hello!</button>
+        <button v-on:click="msg--">-</button>
     </div>
     <script src="script.js"></script>
 </body>
