@@ -8,11 +8,13 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
 
 </head>
-<body>
+<body style="background-color:powderblue;">
     <div id="parent">
         <p>{{ msg }}</p>
-        <button v-on:click="display">Click to tell the world hello!</button>
-        <button v-on:click="msg--">-</button>
+        <p>
+        <button v-on:click="display">Click to alert and tell the world hello!</button>
+        </p>
+        <button v-on:click="write">Click to tell the world hello!</button>
     </div>
     <script src="script.js"></script>
 </body>

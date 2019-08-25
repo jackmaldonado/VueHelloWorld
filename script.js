@@ -5,8 +5,11 @@ new Vue({
     },
     methods: {
         display: function(){
-            this.msg = this.msg + "Hello World! "
-        }
+            this.msg = alert(this.msg + "Hello World! ")
+        },
+            write: function(){
+                this.msg = this.msg + "Hello World! "
+            }
     }
 })
 
